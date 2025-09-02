@@ -2,7 +2,8 @@ Windows XP Desktop (HTML/CSS)
 
 A lightweight, purely front-end recreation of a Windows XP-style desktop built with HTML and CSS. a example for layout techniques (flexbox/grid).
 
-Demo
+Demo![Capture](https://github.com/user-attachments/assets/053ac320-6167-4877-9e71-fcea2f7b7952)
+
 
 Open index.html in a browser (or serve with a local web server) to view the desktop.
 
