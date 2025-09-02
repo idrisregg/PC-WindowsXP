@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.monitor{
+    background-color: rgb(232, 210, 145);
+    height: 700px;
+    width: 900px;
+    position: relative;
+    top: 10px;
+    left: 360px;
+    border-radius: 10px;
+    box-shadow: 30px -10px 200px rgb(255, 255, 255);
+}
+.screen{
+    box-shadow: inset -2px 5px 5px rgb(232, 210, 145);
+    border-radius: 10px;
+    width: 800px;
+    height: 600px;
+    background-color: black;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    background-image: url("../img/window.jpg");
+    background-size: cover;
+}
+.buttons{
+    height: 35px;
+    width: 200px;
+    background-color: rgb(221, 201, 139);
+    position: absolute;
+    bottom: 9px;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+}
+.power-off{
+    padding-bottom: 5px;
+    box-shadow: inset 0px 1px 5px black;
+    cursor: pointer;
+    font-size: large;
+    text-align: center;
+    height: 100%;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px  rgb(232, 210, 145) solid ;
+    background-color: rgb(237, 224, 184);
+    color: gray;
+}
+.power-off:active{
+    padding-bottom: 10px;
+    font-size: large;
+    text-align: center;
+    height: 100%;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px  rgb(232, 210, 145) solid ;
+    background-color: rgba(181, 154, 118, 0.533);
+    color: rgb(0, 0, 0);
+}
+.restart{
+    box-shadow: inset 0px 1px 5px black;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-right: 7px;
+    font-size: large;
+    text-align: center;
+    margin-top: 3px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px  rgb(232, 210, 145) solid ;
+    background-color: rgb(237, 224, 184);
+    color: gray;
+}
+.restart:active{
+    padding-bottom: 10px;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-right: 7px;
+    font-size: large;
+    text-align: center;
+    margin-top: 3px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px  rgb(232, 210, 145) solid ;
+    background-color: rgba(181, 154, 118, 0.533);
+    color: rgb(0, 0, 0);
+}
+.icons img{
+    height: 30px;
+    cursor: pointer;
+}
+.icons{
+    margin-left: 80px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+}
+.task-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 27px;
+    background-color: rgba(22, 99, 233, 0.858);
+    position: absolute;
+    bottom: 0px;
+    right: 1px;
+    left: 0px;
+    opacity: 0;
+    transition: 1s;
+}
+.task-bar:hover{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 27px;
+    background-color: rgb(22, 99, 233,0.858);
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    left: 0px;
+    opacity: 100%;
+}
+.task-bar img{
+cursor: pointer;
+height: 27px;
+}
+.right{
+    margin-right: 1px;
+    border-bottom-right-radius: 4px;
+}
+.start{
+    margin-left: 2px;
+}
