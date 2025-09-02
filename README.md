@@ -15,7 +15,7 @@ Responsive layout: scales reasonably for typical desktop and laptop screen sizes
 
 Pure CSS styling for shadows and simple animations.
 
-Project structure / (PC) ├─ index.html # main demo page ├─ style/ # CSS files │ └─ style.css ├─ img/ # images and icons │ ├─ folder.png │ ├─ right.png ├─ start.png ├─ window.jpg ├─ time.jpg
+Project structure / (PC) ├─ home.html # main demo page ├─ style/ # CSS files │ └─ style.css ├─ img/ # images and icons │ ├─ folder.png │ ├─ right.png ├─ start.png ├─ window.jpg ├─ time.jpg
 
 Clone or download the repository.
 
