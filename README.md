@@ -40,5 +40,3 @@ Tips for improvement
 Convert icons to SVG for crisp scaling.
 
 Concept inspired by Microsoft Windows XP UI.
-
-Icons and wallpaper should be either your own assets or appropriately licensed
